@@ -2,7 +2,7 @@ import socket
 
 class EchoClient:
 
-    def __init__(self, port = 8080, address = "127.0.0.1"):
+    def __init__(self, port = 8081, address = "127.0.0.1"):
         self.port = port
         self.address = address
     
